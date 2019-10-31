@@ -74,9 +74,6 @@ parentElement.appendChild(newAppendContent);
 
 
 
-
-
-
 const ctaH1 = document.querySelectorAll('h1');
 ctaH1[0].textContent = (siteContent['cta']['h1']);
 
@@ -111,4 +108,5 @@ pContact[2].textContent = (siteContent['contact']['email']);
 const pFooter = document.querySelector('footer p');
 pFooter.textContent = (siteContent['footer']['copyright']);
 
-
+const contactWidth = document.querySelector('.contact');
+contactWidth.style.width = '200px';
